@@ -11,15 +11,15 @@ const App = () => {
     {
       prompt: 'What year did spongebob squarepants premiered? ',
       type: 'multiple-choice',
-      choices: ['1999', '2000', '1994', '1998'],
-      correct: 1,
+      choices: ['1994', '2000', '1999', '1998'],
+      correct: 2,
     },
-    {
-      prompt: 'What is the krab named in spongeob squarepants? ',
-      type: 'multiple-answer',
-      choices: ['Mr.Krabs', 'Squidward', 'Spongebob', 'Patrick'],
+     {    
+      prompt: "Who is spongebob's best friend ? (Must select two answers) ",
+      type: "multiple-answer",      
+      choices: ['Patrick','Squidward','Garry','Sandy'],       
       correct: [0, 2],
-    },
+     },
     {
       prompt: 'Is it true or false that Spongebob and Patrick are little kids in Kamp Koral: Spongebob Under Years? ',
       type: 'true-false',
